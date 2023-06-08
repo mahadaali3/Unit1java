@@ -17,6 +17,10 @@ public class Mars {
         else System.out.println("ERROR!!! Flight plan already set. Landing on the Plain");
 
         landingCheck(12);
+        Thread.sleep(1000);
+        new MarsExpedition();
+        Thread.sleep(1000);
+        new FindingsList();
 
     }
     public static boolean landingCheck(int minutesLeft) throws InterruptedException{
