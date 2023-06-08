@@ -18,6 +18,8 @@ public class Mars {
 
         landingCheck(12);
         Thread.sleep(1000);
+        new GuessingGame();
+        Thread.sleep(1000);
         new MarsExpedition();
         Thread.sleep(1000);
         new FindingsList();
